@@ -58,16 +58,21 @@ namespace StringsNullablesConversionsDecisions
 
             Char ch = '7';
 
-            if (ch.IsLetter)
+            
+
+
+            var  isLetter = Char.IsLetter(ch);
+            if (isLetter)
             {
                 Console.WriteLine(ch + " is a letter");
-            } else
+            }
+            else
             {
                 Console.WriteLine(ch + " is not a letter");
 
             }
 
-
+            
 
 
             //Keep Console Open
